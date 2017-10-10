@@ -9,7 +9,7 @@ fs.readFile('tutorial.txt', function (err, data) {
 });
 console.log("Program Ended");
 
-
+console.log( __filename );
 
 var data = '';
 
